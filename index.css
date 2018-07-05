@@ -1,6 +1,17 @@
-.shadow-textarea textarea.form-control::placeholder {
-    font-weight: 300;
+#partner
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.shadow-textarea textarea.form-control {
-    padding-left: 0.8rem;
+
+#texteDuLogo
+{
+    color: #FFFFFF;
+    font-family: 'Qwigley', cursive;
+}
+
+h1 {
+    font-size: 6em;
+    line-height: 65%;
 }
