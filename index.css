@@ -32,6 +32,43 @@ section {
     height: 100px;
 }
 
+/* FOOTER */
 
+footer{
+    background-color: #450C1E;
+}
 
+.col-md-12 {
+    color: white;
+}
 
+.py-5{
+    text-align: center;
+}
+
+.footer-copyright{
+    color: white;
+}
+
+.mb-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.mb-5 > a{
+    margin: 0 20px 0 20px;
+} 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f4c174;
+}
+
+#footer-first{
+    align-items: center;
+}
