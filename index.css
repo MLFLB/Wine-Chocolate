@@ -1,0 +1,37 @@
+/* CSS NAVBAR  */
+
+body {
+    background-color: #eeee; 
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    color: white;
+}
+
+.navbar-expand-lg {
+    margin-bottom: 50px;
+    background-color: #450C1E;
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.3em;
+}
+
+ul li a {
+    margin-right: 50px;
+    margin-left: 50px;
+    color: white;
+}
+
+ul li a:hover {
+    color: #f4c174;
+}
+
+section {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
