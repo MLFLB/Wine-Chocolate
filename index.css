@@ -16,6 +16,83 @@
 }
 
 h1 {
-    font-size: 6em;
-    line-height: 65%;
+    font-size: 1em;
+}
+/* CSS NAVBAR  */
+
+body {
+    background-color: #FFFFFF;; 
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    color: white;
+}
+
+.navbar-expand-lg {
+
+    background-color: #450C1E;
+    color: white;
+    font-family: "Roboto";
+    font-size: 1.3em;
+}
+
+
+ul li a {
+    margin: 0 50px 0 50px;
+
+}
+
+ul li a:hover {
+    color: #f4c174;
+}
+
+
+/* MAP */
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #450C1E;
+}
+
+.col-md-12 {
+    color: white;
+}
+
+.py-5{
+    text-align: center;
+}
+
+.footer-copyright{
+    color: white;
+    font-size: 0.7em;
+}
+
+.mb-5 {
+    display: flex;
+    justify-content: center;
+}
+
+.mb-5 > a{
+    margin: 0 20px 0 20px;
+} 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f4c174;
+}
+
+#footer-first{
+    align-items: center;
 }
