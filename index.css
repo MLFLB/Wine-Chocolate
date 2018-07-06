@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+#partner img {
+    width:auto; height:120px;
+}
+
 #texteDuLogo
 {
     color: #FFFFFF;
