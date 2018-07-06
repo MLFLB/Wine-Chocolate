@@ -17,10 +17,10 @@ body {
     font-size: 1.3em;
 }
 
+
 ul li a {
-    margin-right: 50px;
-    margin-left: 50px;
-    color: white;
+    margin: 0 50px 0 50px;
+
 }
 
 ul li a:hover {
@@ -30,6 +30,14 @@ ul li a:hover {
 section {
     width: 100px;
     height: 100px;
+}
+
+
+/* MAP */
+
+.map {
+    display: flex;
+    justify-content: center;
 }
 
 /* FOOTER */
