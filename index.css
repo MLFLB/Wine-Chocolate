@@ -1,7 +1,27 @@
+#partner
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#partner img {
+    width:auto; height:120px;
+}
+
+#texteDuLogo
+{
+    color: #FFFFFF;
+    font-family: 'Qwigley', cursive;
+}
+
+h1 {
+    font-size: 1em;
+}
 /* CSS NAVBAR  */
 
 body {
-    background-color: #eeee; 
+    background-color: #FFFFFF;; 
 }
 
 .navbar-brand {
@@ -10,7 +30,7 @@ body {
 }
 
 .navbar-expand-lg {
-    margin-bottom: 50px;
+
     background-color: #450C1E;
     color: white;
     font-family: "Roboto";
@@ -25,11 +45,6 @@ ul li a {
 
 ul li a:hover {
     color: #f4c174;
-}
-
-section {
-    width: 100px;
-    height: 100px;
 }
 
 
@@ -56,6 +71,7 @@ footer{
 
 .footer-copyright{
     color: white;
+    font-size: 0.7em;
 }
 
 .mb-5 {
