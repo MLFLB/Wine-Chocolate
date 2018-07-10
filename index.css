@@ -96,3 +96,51 @@ a:hover{
 #footer-first{
     align-items: center;
 }
+
+/* BILLETERIE */
+
+.nb-places{
+    width: 4em;
+}
+
+.TR > label> a{
+    color: black;
+}
+
+.book-button{
+    background: #f4c174;
+    border-color: #f4c174;
+    color: #450C1E;
+}
+
+.book-button:hover{
+    background: #450C1E;
+    border-color: #450C1E;
+    color: #f4c174;
+
+}
+
+.card{
+    background-size: cover;
+}
+
+#card-pass-1{
+    background-image: url(images/IMG_0990-2.jpg);
+}
+
+#card-pass-2{
+    background-image: url(images/chocolate_wine.jpg);
+}
+
+#card-pass-3{
+    background-image: url(images/schokolade-wein-seminar.jpg);
+}
+
+.card-title{
+    color: #f4c174;
+    font-size: 2.5em;
+}
+
+.card-text , .tarifs, .TR > label > a{
+    color: white;
+}
