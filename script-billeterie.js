@@ -64,12 +64,12 @@ $(document).ready(() => {
             $("#form-alert").html(invalidChar);
         }
 
-        else if (($("#pass-1-TP").val() < 0 || $("#pass-1-TP").val() > 50) &&
-                 ($("#pass-1-TR").val() < 0 || $("#pass-1-TR").val() > 50) && 
-                 ($("#pass-2-TP").val() < 0 || $("#pass-2-TP").val() > 50) &&
-                 ($("#pass-2-TR").val() < 0 || $("#pass-2-TR").val() > 50) &&
-                 ($("#pass-3-TP").val() < 0 || $("#pass-3-TP").val() > 50) &&
-                 ($("#pass-3-TR").val() < 0 || $("#pass-3-TR").val() > 50)){
+        else if (($("#pass-1-TP").val() <= 0 || $("#pass-1-TP").val() > 50) &&
+                 ($("#pass-1-TR").val() <= 0 || $("#pass-1-TR").val() > 50) && 
+                 ($("#pass-2-TP").val() <= 0 || $("#pass-2-TP").val() > 50) &&
+                 ($("#pass-2-TR").val() <= 0 || $("#pass-2-TR").val() > 50) &&
+                 ($("#pass-3-TP").val() <= 0 || $("#pass-3-TP").val() > 50) &&
+                 ($("#pass-3-TR").val() <= 0 || $("#pass-3-TR").val() > 50)){
             $("#recap").modal('hide');
             $("#form-alert").html(invalidQtt);
         }
