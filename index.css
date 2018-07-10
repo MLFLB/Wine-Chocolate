@@ -47,6 +47,20 @@ ul li a:hover {
     color: #f4c174;
 }
 
+section {
+    width: 100px;
+    height: 100px;
+}
+
+/* PROGRAMME */
+
+.card-img-top {
+    height: 200px;
+}
+
+
+
+
 
 /* MAP */
 
