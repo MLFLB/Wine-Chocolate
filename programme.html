@@ -8,6 +8,8 @@
     <title>Programme - Wine and Chocolate</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -17,7 +19,9 @@
     <header>
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="index.html">W&C</a>
+            <a class="navbar-brand" href="index.html">
+                <img src="logo2.png" style="height:50px;width:50px;" alt="1">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +47,7 @@
 
     <!-- DEBUT DU PROGRAMME -->
 
-    <h1 class="text-center">Programme</h1>
+    <h1 class="text-center mt-5" id="titleProg">Programme</h1>
 
     <div class="container text-center">
 
@@ -55,9 +59,9 @@
                 <img class="card-img-top" src="brunch.jpeg" alt="Photo Brunch">
                 <div class="card-body">
                     <h5>10h - 13h</h5>
-                    <h4 class="card-title">Brunch d'inauguration</h4>
-                    <p class="card-text">Venez découvrir les stands et exposants dès l'ouverture, durant le brunch du Salon. </p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod1">En savoir +</a>
+                    <h4>Brunch d'inauguration</h4>
+                    <p class="card-text text-dark">Venez découvrir les stands et exposants dès l'ouverture, durant le brunch du Salon. </p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod1">En savoir +</button>
                 </div>
             </div>
 
@@ -79,9 +83,9 @@
                             quam!
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary book-button" data-dismiss="modal">Fermer</button>
                             <a href="billeterie.html">
-                                <button type="button" class="btn btn-primary book-button">Réservez</button>
+                                <button type="button" class="btn btn-primary book-button">Réserver</button>
                             </a>
                         </div>
                     </div>
@@ -94,9 +98,9 @@
                 <img class="card-img-top" src="atelier choco.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>14h - 17h</h5>
-                    <h4 class="card-title">Atelier</h4>
-                    <p class="card-text">Venez participer à l'atelier "Faites votre chocolat à base de raisin" avec nos chefs.</p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod2">En savoir +</a>
+                    <h4>Atelier</h4>
+                    <p class="card-text text-dark">Venez participer à l'atelier "Faites votre chocolat à base de raisin" avec nos chefs.</p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod2">En savoir +</button>
                 </div>
             </div>
 
@@ -114,9 +118,9 @@
                             temporibus nemo quis dignissimos? Explicabo, dolor. Quo distinctio nesciunt error dolore optio.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             <a href="billeterie.html">
-                                <button type="button" class="btn btn-primary book-button">Réservez</button>
+                                <button type="button" class="btn btn-primary book-button">Réserver</button>
                             </a>
                         </div>
                     </div>
@@ -127,9 +131,9 @@
                 <img class="card-img-top" src="poste-chef-cuisinier-londres.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>18h - 22h</h5>
-                    <h4 class="card-title">Soirée découverte</h4>
-                    <p class="card-text">Les meilleurs chefs des meilleurs tables de Bordeaux réunis pour vous.</p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod3">En savoir +</a>
+                    <h4>Soirée découverte</h4>
+                    <p class="card-text text-dark">Les meilleurs chefs des meilleurs tables de Bordeaux réunis pour vous.</p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod3">En savoir +</button>
                 </div>
             </div>
         </div>
@@ -149,9 +153,9 @@
                         dicta.
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                         <a href="billeterie.html">
-                            <button type="button" class="btn btn-primary book-button">Réservez</button>
+                            <button type="button" class="btn btn-primary book-button">Réserver</button>
                         </a>
                     </div>
                 </div>
@@ -170,9 +174,9 @@
                 <img class="card-img-top" src="vin-choco.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>10h - 13h</h5>
-                    <h4 class="card-title">Conférences</h4>
-                    <p class="card-text">Rendez-vous avec nos intervenants spécialisés dans l'accord Vin & Chocolat.</p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod4">En savoir +</a>
+                    <h4>Conférences</h4>
+                    <p class="card-text text-dark">Rendez-vous avec nos intervenants spécialisés dans l'accord Vin & Chocolat.</p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod4">En savoir +</button>
                 </div>
             </div>
 
@@ -190,9 +194,9 @@
                             iste perspiciatis cumque cum et dolor. Aspernatur molestiae tenetur quis ipsa excepturi id.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             <a href="billeterie.html">
-                                <button type="button" class="btn btn-primary book-button">Réservez</button>
+                                <button type="button" class="btn btn-primary book-button">Réserver</button>
                             </a>
                         </div>
                     </div>
@@ -203,9 +207,9 @@
                 <img class="card-img-top" src="atelier-degustation.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>14h - 17h</h5>
-                    <h4 class="card-title">Atelier Dégustation</h4>
-                    <p class="card-text">Suite à aux conférences de la matinée, venez goûter les mets préparés avec soin. </p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod5">En savoir +</a>
+                    <h4>Atelier Dégustation</h4>
+                    <p class="card-text text-dark">Suite à aux conférences de la matinée, venez goûter les mets préparés avec soin. </p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod5">En savoir +</button>
                 </div>
             </div>
 
@@ -224,9 +228,9 @@
                             Quis, hic?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             <a href="billeterie.html">
-                                <button type="button" class="btn btn-primary book-button">Réservez</button>
+                                <button type="button" class="btn btn-primary book-button">Réserver</button>
                             </a>
                         </div>
                     </div>
@@ -237,9 +241,9 @@
                 <img class="card-img-top" src="salon-chocolat-bordeaux-défilé-05.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>18h - 22h</h5>
-                    <h4 class="card-title">Défilé de mode</h4>
-                    <p class="card-text">Admirez les robes conféctionnées par des professionnels du chocolat.</p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod6">En savoir +</a>
+                    <h4>Défilé de mode</h4>
+                    <p class="card-text text-dark">Admirez les robes conféctionnées par des professionnels du chocolat.</p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod6">En savoir +</button>
                 </div>
             </div>
         </div>
@@ -258,9 +262,9 @@
                         facilis, tempore in, ipsam nam ratione nobis repudiandae aut incidunt blanditiis delectus!
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                         <a href="billeterie.html">
-                            <button type="button" class="btn btn-primary book-button">Réservez</button>
+                            <button type="button" class="btn btn-primary book-button">Réserver</button>
                         </a>
                     </div>
                 </div>
@@ -272,14 +276,14 @@
         <!-- PROGRAMME DU DIMANCHE  -->
 
         <h2 class="my-5">Dimanche</h2>
-        <div class="row align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-center mb-5">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="cuisine moleculaire.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>10h - 13h</h5>
-                    <h4 class="card-title">Conférences</h4>
-                    <p class="card-text">Venez participer à la conférence sur la cuisine moléculaire avec des chefs renommés.</p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod7">En savoir +</a>
+                    <h4>Conférences</h4>
+                    <p class="card-text text-dark">Venez participer à la conférence sur la cuisine moléculaire avec des chefs renommés.</p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod7">En savoir +</button>
                 </div>
             </div>
 
@@ -298,9 +302,9 @@
                             reprehenderit non ad.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             <a href="billeterie.html">
-                                <button type="button" class="btn btn-primary book-button">Réservez</button>
+                                <button type="button" class="btn btn-primary book-button">Réserver</button>
                             </a>
                         </div>
                     </div>
@@ -311,9 +315,9 @@
                 <img class="card-img-top" src="Prix_Montaigne_2017a.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>14h - 17h</h5>
-                    <h4 class="card-title">Remise des Prix</h4>
-                    <p class="card-text">Remise des prix du Concours Chocolat/Vin et du Défilé de mode.</p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod8">En savoir +</a>
+                    <h4>Remise des Prix</h4>
+                    <p class="card-text text-dark">Remise des prix du Concours Chocolat/Vin et du Défilé de mode.</p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod8">En savoir +</button>
                 </div>
             </div>
 
@@ -331,9 +335,9 @@
                             sint eum quas impedit consequatur nesciunt possimus officiis voluptatem sit aliquam natus eius?
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             <a href="billeterie.html">
-                                <button type="button" class="btn btn-primary book-button">Réservez</button>
+                                <button type="button" class="btn btn-primary book-button">Réserver</button>
                             </a>
                         </div>
                     </div>
@@ -344,9 +348,9 @@
                 <img class="card-img-top" src="vin.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5>18h - 22h</h5>
-                    <h4 class="card-title">Soirée de Clôture</h4>
-                    <p class="card-text">Venez clôturez la première édition de la "Rencontre du Vin et du Chocolat".</p>
-                    <a type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod9">En savoir +</a>
+                    <h4>Soirée de Clôture</h4>
+                    <p class="card-text text-dark">Venez clôturez la première édition de la "Rencontre du Vin et du Chocolat".</p>
+                    <button type="button" href="#" class="btn btn-primary book-button" data-toggle="modal" data-target="#myMod9">En savoir +</button>
                 </div>
             </div>
 
@@ -365,9 +369,9 @@
                             ipsa.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
                             <a href="billeterie.html">
-                                <button type="button" class="btn btn-primary book-button">Réservez</button>
+                                <button type="button" class="btn btn-primary book-button">Réserver</button>
                             </a>
                         </div>
                     </div>
@@ -377,6 +381,80 @@
         </div>
     </div>
     <!--fin div container-->
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small indigo">
+
+        <!-- Footer Links -->
+        <div class="container-fluid">
+
+            <!-- Grid row-->
+            <div id="footer-first" class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Plan du site</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Mentions légales</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 mb-3">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="#!">Nous contacter</a>
+                    </h6>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 ">
+                    <div class="mb-5">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/laciteduvin/">
+                            <i class="fab fa-facebook fa-3x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="https://twitter.com/laciteduvin?lang=fr">
+                            <i class="fab fa-twitter fa-3x"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://www.instagram.com/laciteduvin/?hl=fr">
+                            <i class="fab fa-instagram fa-3x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright :
+            <a href="https://www.laciteduvin.com/fr"> laciteduvin.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

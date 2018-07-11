@@ -15,9 +15,7 @@
     font-family: 'Qwigley', cursive;
 }
 
-h1 {
-    font-size: 1em;
-}
+
 /* CSS NAVBAR  */
 
 body {
@@ -47,10 +45,14 @@ ul li a:hover {
     color: #f4c174;
 }
 
-section {
-    width: 100px;
-    height: 100px;
+/* CSS PAGE INDEX */
+
+.titreIndex{
+    font-size: 1.6em;
+    color: #f4c174;
+
 }
+
 
 /* PROGRAMME */
 
@@ -59,6 +61,14 @@ section {
 }
 
 
+#titleProg {
+    color: #f4c174;
+    font-weight: bold;
+}
+
+ {
+    color: #450C1E;
+}
 
 
 
@@ -134,6 +144,12 @@ a:hover{
 
 }
 
+#phraseBillet {
+    color: black;
+}
+
+/* CSS CARD PROGRAMME ET BILLETERIE */
+
 .card{
     background-size: cover;
 }
@@ -157,4 +173,8 @@ a:hover{
 
 .card-text , .tarifs, .TR > label > a{
     color: white;
+}
+
+h4 {
+    color: #f4c174;
 }
