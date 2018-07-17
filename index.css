@@ -48,7 +48,7 @@ ul li a:hover {
 /* CSS PAGE INDEX */
 
 .titreIndex{
-    font-size: 1.6em;
+    font-size: 2rem;
     color: #f4c174;
 
 }
@@ -60,6 +60,9 @@ ul li a:hover {
     height: 200px;
 }
 
+.description{
+    font-size: 1.5rem;
+}
 
 #titleProg {
     color: #f4c174;
@@ -107,7 +110,7 @@ a:hover{
     align-items: center;
 }
 
-/* BILLETERIE */
+/* billetterie */
 
 .nb-places{
     width: 4em;
@@ -134,7 +137,7 @@ a:hover{
     color: black;
 }
 
-/* CSS CARD PROGRAMME ET BILLETERIE */
+/* CSS CARD PROGRAMME ET billetterie */
 
 .card{
     background-size: cover;
